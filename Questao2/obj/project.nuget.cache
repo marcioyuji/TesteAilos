@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "H+Pe/sLhiniyRu9ldyBAxZJ0FqB0RK2Dyjo/NH2emP1BVyNpHcBpJcX8ozLF7qR+xmD8wzpzsZBm8gF5tAviGw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marcio.shinoda\\OneDrive - Compass UOL\\Área de Trabalho\\Teste Aiolos\\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3\\Questao2\\Questao2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marcio.shinoda\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

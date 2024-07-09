@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Questao5</name>
+    </assembly>
+    <members>
+        <member name="M:Questao5.Infrastructure.Services.Controllers.ContaCorrenteController.MovimentarConta(Questao5.Application.Commands.Requests.MovimentarContaRequest)">
+            <summary>
+            Movimentação de conta corrente
+            </summary>
+            <remarks>
+            IdConta deve ser um identificador já cadastrado na contacorrente
+            Valor deve ser maior que 0
+            Tipo da conta deve ser 'C' (Crédito) ou 'D' (Débito)
+            </remarks>
+            <response code="200">Movimentação executada com sucesso retornando IdMovimento (Identificação do movimento)</response>
+            <response code="400">Retorna BadRequest com tipo do erro e mensagem INVALID_ACCOUNT (Conta invalida),
+            INACTIVE_ACCOUNT (Conta inativa), INVALID_VALUE (Valor invalido) e INVALID_TYPE </response>
+        </member>
+        <member name="M:Questao5.Infrastructure.Services.Controllers.ContaCorrenteController.ObterSaldoConta(System.String)">
+            <summary>
+            Obter saldo da conta corrente
+            </summary>
+            <remarks>
+            identificacaoConta deve ser um identificador já cadastrado na contacorrente
+            </remarks>
+            <response code="200">Dados da conta obtido com sucesso retornando Numero da conta, nome do titular, data da consulta e valor do saldo atual</response>
+            <response code="400">Retorna BadRequest com tipo do erro e mensagem INVALID_ACCOUNT (Conta invalida),
+            INACTIVE_ACCOUNT (Conta inativa)</response>
+        </member>
+    </members>
+</doc>
